@@ -1,59 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Orvien</title>
-  <style>
-    body {
-      background: #0f1117;
-      color: #f0f2f5;
-      font-family: 'Segoe UI', sans-serif;
-      padding: 3em;
-      line-height: 1.7;
-    }
-    h1 {
-      color: #91e2ff;
-      font-size: 3em;
-    }
-    .tagline {
-      font-size: 1.2em;
-      color: #ccc;
-      margin-bottom: 2em;
-    }
-    a {
-      color: #7fe8fd;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .links {
-      margin-top: 2em;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Orvien</h1>
-  <div class="tagline">Engineered to resonate. Designed to accelerate.</div>
+  <header>
+    <h1>Orvien</h1>
+    <p class="tagline">感じて、創って、加速する。</p>
+    <nav>
+      <a href="#projects">プロジェクト</a>
+      <a href="#about">概要</a>
+      <a href="#contact">連絡先</a>
+    </nav>
+  </header>
 
-  <p>Orvien is a modular interface ecosystem bridging OS design, creative tools, and performance tech. Lightweight. Expressive. Limitless.</p>
+  <main>
+    <section id="projects">
+      <h2>プロジェクト</h2>
+      <ul>
+        <li><strong>Orvien OS</strong>：美しさと軽量性を備えた次世代のUI体験</li>
+        <li><strong>Orvien Studio</strong>：音響と映像のための創作ツール</li>
+      </ul>
+    </section>
 
-  <p><strong>Projects:</strong></p>
-  <ul>
-    <li>Orvien OS – A beautiful, customizable operating shell</li>
-    <li>Orvien Studio – Sound & visual tools for creators</li>
-    <li>Orvien Extensions – Expand your everyday interface</li>
-  </ul>
+    <section id="about">
+      <h2>ブランド概要</h2>
+      <p>Orvienは、UIデザイン、音響、創作支援ツールなどを横断する総合プラットフォームです。</p>
+    </section>
 
-  <div class="links">
-    <p><strong>Connect:</strong></p>
-    <ul>
-      <li><a href="https://www.instagram.com/orvien_official">Instagram</a></li>
-      <li><a href="https://x.com/orvien_official">X (Twitter)</a></li>
-      <li><a href="https://www.youtube.com/@orvien_official">YouTube</a></li>
-      <li><a href="https://www.tiktok.com/@orvien_official">TikTok</a></li>
-    </ul>
-  </div>
+    <section id="contact">
+      <h2>連絡先</h2>
+      <p><a href="https://x.com/orvien_official">@orvien_official</a> 宛にご連絡ください。</p>
+    </section>
+  </main>
+
+  <footer>
+    <small>© 2025 Orvien</small>
+    <script src="script.js"></script>
+  </footer>
 </body>
 </html>
