@@ -20,8 +20,11 @@
 - **Orvien Studio**  
   クリエイター向けの音響・映像ツール。表現と効率を両立する設計。
 
+- **Orvien Studio X**
+  企業などの法人向けのOrvien Studioです。最先端の技術を集結させて映像や音響関連の制作をします。
+
 - **Orvien Extension**  
-  ブラウザ・UI体験を拡張する拡張機能群（開発中）。
+  ブラウザ・UI体験を拡張する拡張機能群。
 
 ---
 
@@ -36,8 +39,7 @@
 
 ## 📬 お問い合わせ
 
-開発・コラボのお問い合わせは X のDMまたは `orvien.contact[at]example.com` まで  
-（※アドレスは必要に応じて変更してください）
+お問い合わせは X のDMまたは `orvienofficial@gmail.com` まで 
 
 ---
 
